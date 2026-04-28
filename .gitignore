@@ -7,7 +7,9 @@ venv/
 env/
 *.egg-info/
 .env
-.env.*
+.env.local
+.env.*.local
+# NOTE: .env.production is intentionally committed (no secrets, only public URLs)
 
 # SQLite DB (don't commit the database file)
 *.db
